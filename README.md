@@ -1,2 +1,0 @@
-# pec
-Created with CodeSandbox
