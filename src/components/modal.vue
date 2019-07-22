@@ -1,6 +1,6 @@
 <template>
   <div class="overlay">
-    <div class="modal-text event">
+    <div class="modal-text event-m">
       <div class="event-circle-box">
         <div
           style="color: #fff"
@@ -60,15 +60,37 @@ a {
   overflow: auto !important;
 }
 
-.event {
-  width: auto;
-  height: auto;
+
+
+.event-m {
+  width: auto !important;
+  height: auto !important;
   background: #fff !important;
   color: #000 !important;
   padding-top: 30.2px;
 }
-.event > ul > li {
+.event-m > ul > li {
   display: block;
+}
+
+.event-m > ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  list-style-type: none;
+  padding: 10px;
+  margin: 0;
+  color: #202124 !important;
+}
+.event-m > ul > li {
+  transform: translateY(-19px);
+  display: flex;
+  text-align: left;
+  justify-content: flex-start;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.3;
+  color: #202124 !important;
 }
 
 .event-text {
@@ -137,4 +159,6 @@ a {
   justify-content: space-around;
   align-items: flex-end;
 }
+
+
 </style>
