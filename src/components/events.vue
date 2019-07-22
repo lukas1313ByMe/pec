@@ -280,7 +280,7 @@ export default {
 }
 
 .event {
-  width: 290px;
+  width: 290px !important;
   height: 140px;
   background: #fff !important;
   padding: 1px 0;
