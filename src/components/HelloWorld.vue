@@ -87,24 +87,22 @@ export default {
     grid-gap: 12px;
   }
   .lh {
-    grid-column: 1 / span 4;
+    grid-column: 1 / span 2;
     grid-row: 1 / span 2;
   }
   .e {
     display: flex;
-    grid-column: 1 / span 4;
+    grid-column: 1 / span 2;
     grid-row: 3;
     width: 100%;
   }
   .events {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    flex-wrap: wrap;
-    width: 100%;
+    justify-content: flex-start;
   }
   .event {
-    width: 160px;
+    width: 240px !important;
     height: 160px;
     color: #202124 !important;
   }
@@ -120,9 +118,6 @@ export default {
 
 /* ipad lanmdscape */
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1024px) {
-  .events {
-    justify-content: center;
-  }
   .header-filter {
     width: 100%;
   }
@@ -162,11 +157,11 @@ export default {
     grid-column: 1 / span 4;
     grid-row: 1 / span 2;
   }
-  .events {
-    justify-content: center;
-  }
   .header-filter {
     width: 100%;
+  }
+  .event {
+    width: 258px !important;
   }
 }
 
