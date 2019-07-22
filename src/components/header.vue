@@ -260,4 +260,17 @@ a {
   -webkit-transform: rotate(-45deg);
   transform: rotate(-45deg);
 }
+
+@media screen and (max-width: 375px) {
+  .hamburger {
+    height: 13px;
+  }
+}
+@media screen and (max-width: 360px) {
+  input:checked + .slider:before {
+    -webkit-transform: translateX(212px);
+    -ms-transform: translateX(212px);
+    transform: translateX(212px);
+  }
+}
 </style>

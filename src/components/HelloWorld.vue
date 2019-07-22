@@ -107,7 +107,7 @@ export default {
     color: #202124 !important;
   }
   .header-filter {
-    width: 100%;
+    width: 100% !important;
   }
   input:checked + .slider:before {
     -webkit-transform: translateX(274px) !important;
@@ -119,7 +119,7 @@ export default {
 /* ipad lanmdscape */
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1024px) {
   .header-filter {
-    width: 100%;
+    width: 100% !important;
   }
 }
 
@@ -143,7 +143,7 @@ export default {
     grid-row: 3;
   }
   .header-filter {
-    width: 100%;
+    width: 100% !important;
   }
   input:checked + .slider:before {
     -webkit-transform: translateX(284px) !important;
@@ -158,7 +158,7 @@ export default {
     grid-row: 1 / span 2;
   }
   .header-filter {
-    width: 100%;
+    width: 100% !important;
   }
   .event {
     width: 258px !important;
@@ -174,7 +174,7 @@ export default {
     color: #202124 !important;
   }
   .header-filter {
-    width: 100%;
+    width: 100% !important;
   }
   .e {
     display: flex;
